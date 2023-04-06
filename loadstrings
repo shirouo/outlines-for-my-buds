@@ -1,0 +1,24 @@
+------- brothers -------
+
+
+
+------- HIGHLIGHT ESP FOR MY SISTER -------
+
+getgenv().Account = "psyw" -- // psyw
+
+------- HIGHLIGHT ESP FOR SEO -------
+
+getgenv().Account2 = "fixmyseIf" -- // fixmyseIf
+getgenv().HisCurrentName = "seo"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/outlines-for-my-buds/main/hilight.lua", true))()
+
+
+
+------- sisters -------
+
+------- HIGHLIGHT ESP FOR MY BROTHER -------
+
+getgenv().Account = "j0mOj" -- // j0mOj / e8qt
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/outlines-for-my-buds/main/hilight.lua", true))()
