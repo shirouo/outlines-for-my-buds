@@ -122,34 +122,34 @@ local function RefreshNameTag2()
                     ------- SEO -------
 				if Character.Name == getgenv().Account2 then
 				    Character.Humanoid.DisplayName = " "
-					local BillboardGui = Instance.new("BillboardGui")
-					local TextLabel = Instance.new("TextLabel")
-					local UIStroke = Instance.new("UIStroke")
-					BillboardGui.Parent = Character.Head
-					BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-					BillboardGui.Active = true
-					BillboardGui.AlwaysOnTop = true
-					BillboardGui.LightInfluence = 0
-					BillboardGui.Size = UDim2.new(0, 200, 0, 200)
-					BillboardGui.StudsOffset = Vector3.new(0, 1.5, 0)
-					TextLabel.Parent = BillboardGui
-					TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-					TextLabel.BackgroundTransparency = 1
-					TextLabel.Size = UDim2.new(0, 200, 0, 200)
-					TextLabel.Font = Enum.Font.Bodoni
+					local BillboardGui2 = Instance.new("BillboardGui")
+					local TextLabel2 = Instance.new("TextLabel")
+					local UIStroke2 = Instance.new("UIStroke")
+					BillboardGui2.Parent = Character.Head
+					BillboardGui2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+					BillboardGui2.Active = true
+					BillboardGui2.AlwaysOnTop = true
+					BillboardGui2.LightInfluence = 0
+					BillboardGui2.Size = UDim2.new(0, 200, 0, 200)
+					BillboardGui2.StudsOffset = Vector3.new(0, 1.5, 0)
+					TextLabel2.Parent = BillboardGui
+					TextLabel2.BackgroundColor3 = Color3.new(1, 1, 1)
+					TextLabel2.BackgroundTransparency = 1
+					TextLabel2.Size = UDim2.new(0, 200, 0, 200)
+					TextLabel2.Font = Enum.Font.Bodoni
 					local acctt = getgenv().Account2
                     local plrzs = game:GetService("Players")[acctt]
                     local displaer = plrzs.DisplayName
-                    TextLabel.Text = "".. getgenv().HisCurrentName .. " <3 (" .. displaer .. ")";
-					TextLabel.TextColor3 = Color3.new(0.470588235,0.564705882,0.509803922)
-					TextLabel.TextScaled = false
-					TextLabel.TextSize = 25
-					TextLabel.TextWrapped = true
-					UIStroke.Parent = TextLabel
-					UIStroke.Color = Color3.new(0.949019608,0.949019608,0.949019608)
-					UIStroke.LineJoinMode = Round
-					UIStroke.Thickness = 0.025
-					UIStroke.Transparency = 0
+                    TextLabel2.Text = "".. getgenv().HisCurrentName .. " <3 (" .. displaer .. ")";
+					TextLabel2.TextColor3 = Color3.new(0.470588235,0.564705882,0.509803922)
+					TextLabel2.TextScaled = false
+					TextLabel2.TextSize = 25
+					TextLabel2.TextWrapped = true
+					UIStroke2.Parent = TextLabel
+					UIStroke2.Color = Color3.new(0.949019608,0.949019608,0.949019608)
+					UIStroke2.LineJoinMode = Round
+					UIStroke2.Thickness = 0.025
+					UIStroke2.Transparency = 0
 				end
 			end
 		end
