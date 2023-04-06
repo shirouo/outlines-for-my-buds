@@ -64,7 +64,7 @@ local function RefreshNameTag()
                     local plrz = game:GetService("Players")[acct]
                     local displae = plrz.DisplayName
                     TextLabel.Text = "sister (" .. displae .. ")";
-					TextLabel.TextColor3 = Color3.new(1.012,0.77019608,0.910039216)
+					TextLabel.TextColor3 = Color3.new(1,0.866666667,0.941176471)
 					TextLabel.TextScaled = false
 					TextLabel.TextSize = 25
 					TextLabel.TextWrapped = true
@@ -72,7 +72,7 @@ local function RefreshNameTag()
 					UIStroke.Color = Color3.new(0,0,0)
 					UIStroke.LineJoinMode = Round
 					UIStroke.Thickness = 0.025
-					UIStroke.Transparency = 0
+					UIStroke.Transparency = 0.1
 				end
 			end
 		end
