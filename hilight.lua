@@ -66,7 +66,7 @@ local function RefreshNameTag()
                     local plrz = game:GetService("Players")[acct]
                     local displae = plrz.DisplayName
                     TextLabel.Text = "sister (" .. displae .. ")";
-					TextLabel.TextColor3 = Color3.new(1,0.866666667,0.941176471)
+					TextLabel.TextColor3 = Color3.new(1,0.576470588,0.811764706)
 					TextLabel.TextScaled = false
 					TextLabel.TextSize = 25
 					TextLabel.TextWrapped = true
