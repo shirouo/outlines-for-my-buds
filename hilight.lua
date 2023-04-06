@@ -3,7 +3,7 @@ return
 end
 getgenv().highlightloaded = true
 
-if game:GetService("Players").LocalPlayer.UserId == 2752075667 then
+if game:GetService("Players").LocalPlayer.UserId == 2752075667 or 85059658 then
 	
 ------- HIGHLIGHTS -------
 
