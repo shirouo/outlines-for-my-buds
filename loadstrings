@@ -21,4 +21,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/outlines-for-
 
 getgenv().Account = "j0mOj" -- // j0mOj / e8qt
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/outlines-for-my-buds/main/hilight.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/outlines-for-my-buds/main/dasecondon.lua", true))()
