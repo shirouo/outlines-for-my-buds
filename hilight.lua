@@ -82,88 +82,9 @@ local function RefreshNameTag()
 	end
 end
 
-------- HIGHLIGHTS -------
-
-local Players = game.Players
-local function RefreshHighlights2()
-	for i, Player in pairs(Players:GetPlayers()) do
-		if Player ~= Players.LocalPlayer then
-			local Character = Player.Character
-
-			if Character then
-				if Player.Character:FindFirstChildWhichIsA("Highlight") then
-					Player.Character:FindFirstChildWhichIsA("Highlight"):Destroy()
-				end
-                    ------- SEO -------
-				if Character.Name == getgenv().Account2 then
-					local Highlight = Instance.new("Highlight")
-					Highlight.OutlineColor = Color3.new(0.885588235,0.979705882,0.919803922)
-					Highlight.OutlineTransparency = 0
-					Highlight.FillColor = Color3.new(0.949019608,0.949019608,0.949019608)
-				    Highlight.FillTransparency = 1
-					Highlight.Parent = Character
-				end
-			end
-		end
-	end
-end
-
-------- NAME TAG -------
-local Players = game.Players
-local function RefreshNameTag2()
-	for i, Player in pairs(Players:GetPlayers()) do
-		if Player ~= Players.LocalPlayer then
-			local Character = Player.Character
-
-			if Character then
-				if Player.Character.Head:FindFirstChildWhichIsA("BillboardGui") then
-					Player.Character.Head:FindFirstChildWhichIsA("BillboardGui"):Destroy()
-				end
-                    ------- SEO -------
-				if Character.Name == getgenv().Account2 then
-				    Character.Humanoid.DisplayName = " "
-					local BillboardGui2 = Instance.new("BillboardGui")
-					local TextLabel2 = Instance.new("TextLabel")
-					local UIStroke2 = Instance.new("UIStroke")
-					BillboardGui2.Parent = Character.Head
-					BillboardGui2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-					BillboardGui2.Active = true
-					BillboardGui2.AlwaysOnTop = true
-					BillboardGui2.LightInfluence = 0
-					BillboardGui2.Size = UDim2.new(0, 200, 0, 200)
-					BillboardGui2.StudsOffset = Vector3.new(0, 1.5, 0)
-					TextLabel2.Parent = BillboardGui
-					TextLabel2.BackgroundColor3 = Color3.new(1, 1, 1)
-					TextLabel2.BackgroundTransparency = 1
-					TextLabel2.Size = UDim2.new(0, 200, 0, 200)
-					TextLabel2.Font = Enum.Font.Bodoni
-					local acctt = getgenv().Account2
-                    local plrzs = game:GetService("Players")[acctt]
-                    local displaer = plrzs.DisplayName
-                    TextLabel2.Text = "".. getgenv().HisCurrentName .. " <3 (" .. displaer .. ")";
-					TextLabel2.TextColor3 = Color3.new(0.470588235,0.564705882,0.509803922)
-					TextLabel2.TextScaled = false
-					TextLabel2.TextSize = 25
-					TextLabel2.TextWrapped = true
-					UIStroke2.Parent = TextLabel
-					UIStroke2.Color = Color3.new(0.949019608,0.949019608,0.949019608)
-					UIStroke2.LineJoinMode = Round
-					UIStroke2.Thickness = 0.025
-					UIStroke2.Transparency = 0
-				end
-			end
-		end
-	end
-end
-
 game:GetService("RunService").Heartbeat:Connect(function()
 task.wait(1)
 RefreshHighlights()
 RefreshNameTag()
-end)
-game:GetService("RunService").Heartbeat:Connect(function()
-task.wait(1)
-RefreshHighlights2()
-RefreshNameTag2()
 end)
 end
