@@ -10,7 +10,6 @@ if game:GetService("Players").LocalPlayer.UserId == 2752075667 or 85059658 then
 local Players = game.Players
 local function RefreshHighlights()
 	for i, Player in pairs(Players:GetPlayers()) do
-	wait()
 		if Player ~= Players.LocalPlayer then
 			local Character = Player.Character
 
@@ -36,7 +35,6 @@ end
 local Players = game.Players
 local function RefreshNameTag()
 	for i, Player in pairs(Players:GetPlayers()) do
-	wait()
 		if Player ~= Players.LocalPlayer then
 			local Character = Player.Character
 
@@ -86,7 +84,6 @@ end
 local Players = game.Players
 local function RefreshHighlights2()
 	for i, Player in pairs(Players:GetPlayers()) do
-	wait()
 		if Player ~= Players.LocalPlayer then
 			local Character = Player.Character
 
@@ -112,7 +109,6 @@ end
 local Players = game.Players
 local function RefreshNameTag2()
 	for i, Player in pairs(Players:GetPlayers()) do
-	wait()
 		if Player ~= Players.LocalPlayer then
 			local Character = Player.Character
 
@@ -171,7 +167,6 @@ elseif game:GetService("Players").LocalPlayer.UserId == 133493632 then
 local Players = game.Players
 local function RefreshHighlights()
     for i, Player in pairs(Players:GetPlayers()) do
-    wait()
         if Player ~= Players.LocalPlayer then
             local Character = Player.Character
 
@@ -197,7 +192,6 @@ end
 local Players = game.Players
 local function RefreshNameTag()
     for i, Player in pairs(Players:GetPlayers()) do
-    wait()
         if Player ~= Players.LocalPlayer then
             local Character = Player.Character
 
