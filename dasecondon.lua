@@ -1,3 +1,6 @@
+repeat task.wait() until game:IsLoaded();
+wait()
+
 if getgenv().highlightloaded == true then
 return
 end
