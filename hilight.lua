@@ -162,7 +162,7 @@ game:GetService("RunService").Heartbeat:Connect(function()
 task.wait(1)
 RefreshHighlights2()
 RefreshNameTag2()
-end
+end)
 elseif game:GetService("Players").LocalPlayer.UserId == 133493632 then
 	
 ------- HIGHLIGHTS -------
