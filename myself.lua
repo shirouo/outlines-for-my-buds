@@ -29,7 +29,6 @@ local function RefreshHighlights()
             end
         end
     end
-end
 
 ------- NAME TAG -------
 local Players = game.Players
@@ -76,7 +75,6 @@ local function RefreshNameTag()
             end
         end
     end
-end
 
 game:GetService("RunService").Heartbeat:Connect(function()
 task.wait(1)
