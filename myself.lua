@@ -80,6 +80,7 @@ end
 
 game:GetService("RunService").Heartbeat:Connect(function()
 task.wait(1)
+game:GetService("RunService").RenderStepped:Wait()
 RefreshHighlights()
 RefreshNameTag()
 end)
