@@ -36,7 +36,6 @@ end
 local Players = game.Players
 local function RefreshNameTag()
     for i, Player in pairs(Players:GetPlayers()) do
-        if Player ~= Players.LocalPlayer then
             local Character = Player.Character
 
             if Character then
