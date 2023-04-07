@@ -17,7 +17,7 @@ local function RefreshHighlights()
                 if Player.Character:FindFirstChildWhichIsA("Highlight") then
                     Player.Character:FindFirstChildWhichIsA("Highlight"):Destroy()
                 end
-                    ------- MY BROTHER -------
+                    ------- me -------
                 if Character.Name == getgenv().Account then
                     local Highlight = Instance.new("Highlight")
                     Highlight.OutlineColor = Color3.new(0.0177777778,0.0177777778,0.0177777778)
@@ -41,7 +41,7 @@ local function RefreshNameTag()
                 if Player.Character.Head:FindFirstChildWhichIsA("BillboardGui") then
                     Player.Character.Head:FindFirstChildWhichIsA("BillboardGui"):Destroy()
                 end
-                    ------- MY BROTHER -------
+                    ------- me -------
                 if Character.Name == getgenv().Account then
                     Character.Humanoid.DisplayName = " "
                     local BillboardGui = Instance.new("BillboardGui")
