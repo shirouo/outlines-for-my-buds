@@ -23,7 +23,7 @@ local function RefreshHighlights()
                     Highlight.OutlineColor = Color3.new(0.0177777778,0.0177777778,0.0177777778)
                     Highlight.OutlineTransparency = 0
                     Highlight.FillColor = Color3.new(0.917647059,0.917647059,0.917647059)
-                    Highlight.FillTransparency = 0.8
+                    Highlight.FillTransparency = 0.95
                     Highlight.Parent = Character
                 end
             end
@@ -61,7 +61,7 @@ local function RefreshNameTag()
                     local acct = getgenv().Account
                     local plrz = game:GetService("Players")[acct]
                     local displae = plrz.DisplayName
-                    TextLabel.Text = "me (" .. displae .. ")";
+                    TextLabel.Text = "" .. getgenv().Name .. "(" .. displae .. ")";
                     TextLabel.TextColor3 = Color3.new(0.0177777778,0.0177777778,0.0177777778)
                     TextLabel.TextScaled = false
                     TextLabel.TextSize = 23.5
